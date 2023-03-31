@@ -1,0 +1,17 @@
+.container ul {
+    display :flex;
+    gap : 20px;
+
+}
+.container li {
+    color : white;
+   list-style: none;
+   text-transform: uppercase;
+   padding : 10px 20px;
+   background: rgba(0, 0, 0, 0.918);
+   transition: background ease-in-out 0.4s;
+}
+
+.container li:hover {
+    background : red;
+}
